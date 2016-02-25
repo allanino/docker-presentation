@@ -2,7 +2,7 @@ FROM gliderlabs/alpine:3.2
 
 MAINTAINER Allan Costa "allaninocencio@yahoo.com.br"
 
-RUN apk --update add python-dev py-pip
+RUN apk --update add python py-pip
 
 ADD . /src/app
 
